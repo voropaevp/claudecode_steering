@@ -1,0 +1,21 @@
+{
+  "env": {
+    "MCP_TIMEOUT": "300000",
+    "MCP_REQUEST_TIMEOUT": "300000",
+    "MAX_MCP_OUTPUT_TOKENS": "35000"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__gpt5-troubleshooter__codex",
+      "mcp__gpt5-architect__codex",
+      "mcp__gpt5-reviewer__codex",
+      "mcp__context7"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "gpt5-reviewer",
+    "gpt5-architect",
+    "gpt5-troubleshooter",
+    "context7"
+  ]
+}

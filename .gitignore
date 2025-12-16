@@ -1,0 +1,3 @@
+.claude # it could leak secrets from approvals
+.venv
+.idea/

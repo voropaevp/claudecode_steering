@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "gpt5-reviewer": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["scripts/gpt5-agent.sh", "reviewer"]
+    },
+    "gpt5-architect": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["scripts/gpt5-agent.sh", "architect"]
+    },
+    "gpt5-troubleshooter": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["scripts/gpt5-agent.sh", "troubleshooter"]
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstreamapi/context7-mcp"]
+    }
+  }
+}

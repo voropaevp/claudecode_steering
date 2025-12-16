@@ -1,0 +1,1 @@
+read CLAUDE.md, but ignore mcp section. 
