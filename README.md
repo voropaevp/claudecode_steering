@@ -606,4 +606,6 @@ Apache 2.0 - See LICENSE file
 
 ---
 
-**Remember:** Guidance that persists. Standards that enforce.
+## Known Issues
+
+- Context Rot. As claude does a compaction it forgets most of the instructions in claude.md. Which leads to forgetfulness to call the mcp servers, breaking of style guide, etc. Workaround to the /clear as often as possible, don't schedule two different task into a same context. Split the tasks well.
